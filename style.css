@@ -1,0 +1,154 @@
+html,
+body {
+    margin: 0;
+    height: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: small;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+nav {
+    margin: 10px;
+    top: 0;
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+}
+
+nav a {
+    margin-right: 20px;
+}
+
+nav a.topimage {
+    width: 20px;
+    height: 20px;
+    background: red;
+    border-radius: 50%;
+}
+
+#middle {
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+#logo {
+    text-align: center;
+}
+
+#searchbarcontainer {
+    text-align: center;
+    margin-top: 20px;
+    position: relative;
+}
+
+#search,
+#voice {
+    position: absolute;
+    top: 0px;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#search {
+    left: 10px;
+}
+
+#voice {
+    right: 10px;
+}
+
+#searchbar {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    outline: 0;
+    width: 500px;
+    border-radius: 15px;
+    border: 1px solid #8d8d8d;
+    padding-left: 30px;
+    padding-right:
+}
+
+#buttons {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.button {
+    margin-left: 10px;
+    margin-right: 10px;
+    padding: 10px 5px;
+    cursor: pointer;
+    border-radius: 3px;
+    background: rgb(231, 231, 231);
+    border: 2px solid transparent;
+}
+
+#links {
+    text-align: center;
+    margin-top: 20px;
+}
+
+#footercontent {
+    background: #eee;
+    border-top: 1px solid rgb(231, 231, 231);
+    position: fixed;
+    background-color: #eeeeee;
+    padding: 15px 5px;
+    position: fixed;
+    bottom: 15px;
+    width: 100%;
+    
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+#searchbar:hover {
+    box-shadow: 0 0 10px 2px rgb(233, 233, 233);
+}
+
+.button:hover {
+    box-shadow: 0 0 2px 1px black;
+    border: 2px solid #eee;
+}
+
+#leftfooter {
+    position: absolute;
+    left: 10px;
+}
+
+#rightfooter {
+    position: absolute;
+    right: 10px;
+}
+
+#leftfooter a, #rightfooter a {
+    margin-left: 5px;
+    margin-right: 5px;
+    padding-top: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.SignIn {
+    background-color: rgb(27, 27, 255);
+    padding: 5px 15px;
+    border-radius: 5px;
+    color: white;
+}
